@@ -66,3 +66,31 @@ body {
     width: 100px;
     height: 30px;
 }
+
+/* ------------ MORE INFORMATION SECTION -------------- */
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.random-information h1 {
+    margin: 50px;
+    text-align: center;
+    color: #1F2937;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.illustration .image {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.illustration {
+    width: 150px;
+    text-align: center;
+}
