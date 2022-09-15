@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -15,6 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 50px;
 }
 
 .nav h1 {
@@ -37,6 +42,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 50px;
 }
 
 .awesomeText {
@@ -71,6 +77,7 @@ body {
 
 .illustrations {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
     margin-bottom: 200px;
@@ -87,7 +94,7 @@ body {
 .illustration .image {
     border: 3px solid #3882F6;
     border-radius: 10px;
-    width: 150px;
+    /*width: 150px;*/
     height: 150px;
 }
 
@@ -101,7 +108,7 @@ body {
 .quote {
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
+    max-width: 800px;
     align-self: center;
     justify-content: flex-end;
     background-color: #E5E7EB;
@@ -124,16 +131,18 @@ body {
 /* ---------------- Call to Action ------------- */
 .call-to-action {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 15px;
     align-self: center;
     background-color: #3882F6;
     height: 100px;
-    width: 900px;
+    max-width: 900px;
+    width: 100%;
     border: 1px solid #3882F6;
     border-radius: 8px;
     margin-bottom: 200px;
+    padding: 0 30px;
 }
 
 .call-to-action p {
